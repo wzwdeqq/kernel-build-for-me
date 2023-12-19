@@ -13,36 +13,36 @@ jobs:
   build-munch-aosp-kernel:
     uses: ./.github/workflows/rk-aosp.yml
     with:
-      IS_RELEASE: true
+      IS_RELEASE: false
       DEVICE_CODE: 'munch'
       USE_KERNELSU: true
   build-alioth-aosp-kernel:
     uses: ./.github/workflows/rk-aosp.yml
     with:
-      IS_RELEASE: true
+      IS_RELEASE: false
       DEVICE_CODE: 'alioth'
       USE_KERNELSU: true
   build-apollo-aosp-kernel:
     uses: ./.github/workflows/rk-aosp.yml
     with:
-      IS_RELEASE: true
+      IS_RELEASE: false
       DEVICE_CODE: 'apollo'
       USE_KERNELSU: true
   build-munch-miui-kernel:
     uses: ./.github/workflows/rk-miui.yml
     with:
-      IS_RELEASE: true
+      IS_RELEASE: false
       DEVICE_CODE: 'munch'
       USE_KERNELSU: true
   build-alioth-miui-kernel:
     uses: ./.github/workflows/rk-miui.yml
     with:
-      IS_RELEASE: true
+      IS_RELEASE: false
       DEVICE_CODE: 'alioth'
       USE_KERNELSU: true
   build-apollo-miui-kernel:
     uses: ./.github/workflows/rk-miui.yml
     with:
-      IS_RELEASE: true
+      IS_RELEASE: false
       DEVICE_CODE: 'apollo'
       USE_KERNELSU: true
