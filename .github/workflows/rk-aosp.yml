@@ -33,7 +33,7 @@ jobs:
     - name: Setup Configuration
       run: |
         if [ ${{ inputs.IS_RELEASE }} = true ] ; then
-          echo "SOURCE_REPO=WeeAris/Realking_imm_kernel_sm8250" >> $GITHUB_ENV
+          echo "SOURCE_REPO=wzwdeqq/Realking_imm_kernel_sm8250" >> $GITHUB_ENV
           
           if [ ${{ inputs.DEVICE_CODE }} = alioth ] ; then
             echo "BRANCH_NAME=aosp" >> $GITHUB_ENV
