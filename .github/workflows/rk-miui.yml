@@ -50,7 +50,7 @@ jobs:
           fi
         else
           echo "SOURCE_REPO=Rohail33/Realking_kernel_sm8250" >> $GITHUB_ENV
-          echo "BRANCH_NAME=base" >> $GITHUB_ENV
+          echo "BRANCH_NAME=non-ksu" >> $GITHUB_ENV
           if [ ${{ inputs.DEVICE_CODE }} = alioth ] ; then
             echo "DEVICE_NAME=Alioth" >> $GITHUB_ENV
             echo "DEF_CONFIG=alioth_defconfig" >> $GITHUB_ENV
